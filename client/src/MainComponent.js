@@ -21,7 +21,7 @@ export const MainComponent = () => {
 
     useEffect(() => {
         getAllNumbers();
-    }, [getAllNumbers]);
+    }, [saveNumber]);
     
     return (
         <>
