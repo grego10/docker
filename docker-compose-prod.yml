@@ -21,3 +21,5 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./client
+    ports:
+      - "80:80"
